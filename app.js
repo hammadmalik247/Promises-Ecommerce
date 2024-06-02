@@ -14,3 +14,9 @@ axios('https://fakestoreapi.com/products')
                 <a href="#" class="btn btn-primary">ADD TO CART</a>
             </div>
         </div>
+        `;
+    });
+})
+.catch((err) => {
+    console.log(err);
+});
